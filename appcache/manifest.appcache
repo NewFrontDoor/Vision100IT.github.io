@@ -1,5 +1,5 @@
 CACHE MANIFEST
-#ver:11/16/2016, 2:38:55 PM
+#ver:11/16/2016, 2:40:57 PM
 
 CACHE:
 ../ba313324f75e804210f2cacd1d43b3dc.jpg
@@ -53,39 +53,6 @@ CACHE:
 ../main.js
 ../critical.js
 ../main.css
-../
-../about/
-../client/
-../consultation/
-../contact/
-../control/
-../documentation/
-../elvanto/
-../error/
-../feature/
-../podcasting/
-../registration/
-../sparkleshare/
-../status/
-../support/
-../training/
-../blog/2014-10-29/
-../blog/2015-02-12/
-../blog/2015-06-15/
-../blog/2015-11-16/
-../blog/2015-11-20/
-../blog/2016-02-21/
-../blog/2016-06-03/
-../documentation/checklist/
-../documentation/costs/
-../documentation/development/
-../documentation/events/
-../documentation/mailinglists/
-../documentation/podcast/
-../documentation/privacy/
-../documentation/sparkleshare/
-../documentation/suite/
-../documentation/template/
 
 NETWORK:
 *
