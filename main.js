@@ -422,7 +422,7 @@ e.exports=r;var a=n(257),o=n(788)},function(e,t,n){function r(e,t){var n=t||{},r
 	 * @module mdast:toc
 	 * @fileoverview Generate a Table of Contents (TOC) from a given Markdown file.
 	 */
-e.exports=r;var a=n(793),o=n(792),i=n(786)},function(e,t,n){function r(e,t,n){var d,f,p=t.children,h=p.length,m=p[h-1],y=!1;if(1===e.depth?(f=a(),f.children.push({type:u,children:[{type:l,title:null,url:"#"+e.id,children:[{type:c,value:e.value}]}]}),p.push(f)):m&&m.type===s?r(e,m,n):m&&m.type===i?(e.depth--,r(e,m,n)):t.type===i?(f=a(),r(e,f,n),p.push(f)):(f=o(),e.depth--,r(e,f,n),p.push(f)),t.type===s)t.loose=!n&&p.length>1;else{if(n)y=!1;else for(d=-1;++d<h;)if(p[d].loose){y=!0;break}for(d=-1;++d<h;)p[d].loose=y}}/**
+e.exports=r;var a=n(793),o=n(792),i=n(786)},function(e,t,n){function r(e,t,n){var d,f,p=t.children,h=p.length,m=p[h-1],y=!1;if(1===e.depth?(f=a(),f.children.push({type:u,children:[{type:l,title:null,url:"#"+e.id,children:[{type:c,value:e.value}]}]}),p.push(f)):m&&m.type===s?r(e,m,n):m&&m.type===i?(e.depth--,r(e,m)):t.type===i?(f=a(),r(e,f),p.push(f)):(f=o(),e.depth--,r(e,f),p.push(f)),t.type===s)t.loose=!n&&p.length>1;else{if(n)y=!1;else for(d=-1;++d<h;)if(p[d].loose){y=!0;break}for(d=-1;++d<h;)p[d].loose=y}}/**
 	 * @author Titus Wormer
 	 * @copyright 2015 Titus Wormer
 	 * @license MIT
